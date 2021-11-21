@@ -100,16 +100,19 @@ width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 25px;
-    background-image: linear-gradient(to bottom right,rgba(255, 202, 201, 0.6),rgba(255, 105, 105, 0.9))
+    
 }
 #mainSub a{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
+
     color: black;
-    text-decoration: underline;
     font-weight: 600;
+    border: black solid 1px;
+    background-image: linear-gradient(to bottom right,rgba(255, 202, 201, 0.6),rgba(255, 105, 105, 0.9));
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
     
 
 }
@@ -124,6 +127,14 @@ width: 100%;
 }
 #footer h3{
     text-decoration: underline;
+}
+#mainSub .row .nopadding{
+    width: 100%;
+}
+.row{
+    padding: 0px;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 /* XXL- Devices */ 
@@ -341,14 +352,14 @@ text-align: center;
 
         align-items: center;
         padding: 10px;
-        margin-left: 180px;
+        margin-left: 200px;
         height: 60px;
         width: 140px;
         align-items: center;
         text-align: center;
         }
         .nav-numberSmLink{
-            border: 1px black solid;
+            border: 5px black solid;
             padding: 2px;
             height: 80px;
             width: 170px;
@@ -358,8 +369,6 @@ text-align: center;
         .nav-numberSmLink:hover{
             background-color: rgb(255, 183, 94);
             color: black;
-            max-height:50vw;
-            color:black;
         }
         /* Jumbotron */ 
         .jumbotron img{
@@ -384,15 +393,14 @@ text-align: center;
 /* Xtra Small Devices*/
 @media (max-width: 575px){
     /* Navbar */
-   
+
     .nav-numberSm{
 
-        align-items: center;
-        padding: 10px;
-        margin-left: 150px;
+        
+        padding: 10px;       
         height: 60px;
-        width: 140px;
-        align-items: center;
+        
+        align-items: flex-start;
         text-align: center;
         }
         .nav-numberSmLink{
@@ -428,4 +436,5 @@ text-align: center;
             height: auto;
             width: auto;
         }
+
 }
