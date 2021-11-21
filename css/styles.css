@@ -7,6 +7,9 @@ body{
 a{
     text-decoration: none;
 }
+li{
+    list-style-type: none;
+}
 
 #header-nav{
     background-image: linear-gradient(to bottom right,rgb(201, 52, 49, 0.6),rgb(228, 21, 21, 0.9));
@@ -135,6 +138,14 @@ width: 100%;
     padding: 0px;
     margin-left: auto;
     margin-right:auto;
+}
+#footer .row{
+    margin:0px;
+    width: 100vw;
+}
+.footerCol li, .footerCol h3{
+    text-align: center;
+    margin: 0px;
 }
 
 /* XXL- Devices */ 
