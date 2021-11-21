@@ -96,6 +96,36 @@ flex-direction: column;
 align-items: center;
 width: 100%;
 }
+#mainSub{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    background-image: linear-gradient(to bottom right,rgba(255, 202, 201, 0.6),rgba(255, 105, 105, 0.9))
+}
+#mainSub a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: black;
+    text-decoration: underline;
+    font-weight: 600;
+    
+
+}
+#mainSub a:hover{
+    background-image: linear-gradient(to bottom right,rgba(255, 4, 0, 0.6),rgba(255, 117, 117, 0.9))
+}
+#footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+}
+#footer h3{
+    text-decoration: underline;
+}
+
 /* XXL- Devices */ 
 @media (min-width:1400px){
        /* Navbar */
@@ -127,12 +157,21 @@ width: 100%;
            .jumbotron img{
            
             margin-top: 10px;
-            height: 1200px;
+            max-height: 1200px;
             max-width:90vw;
+            height: auto;
+            width: auto;
             box-shadow: 0 0 50px rgb(201, 52, 49, 0.6);
              border: 2px solid rgb(70, 18, 17, 0.6);
             
         }   
+        /* Sub Main Images */
+        #mainSub a img{
+            max-height: 300px;
+            max-width:300px;
+            height: auto;
+            width: auto;
+        }
 }
 /* X-Large Devices */
 @media (min-width:1200px) and (max-width: 1399px){
@@ -163,13 +202,23 @@ width: 100%;
         }
                 /* Jumbotron */
                 .jumbotron img{
-                    max-width:90vw;
+                    
                     margin-top: 10px;
-                    height: 800px;
+                    max-height: 800px;
+                    max-width:90vw;
+                    height: auto;
+                    width: auto;
                     box-shadow: 0 0 50px rgb(201, 52, 49, 0.6);
                      border: 2px solid rgb(70, 18, 17, 0.6);
                     
                 }         
+                /* Sub Main Images */
+        #mainSub a img{
+            max-height: 200px;
+            max-width:200px;
+            height: auto;
+            width: auto;
+        }
 }
 /* Large Devices */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -202,8 +251,10 @@ width: 100%;
         .jumbotron img{
            
            margin-top: 10px;
-           height: 675px;
-           max-width:90vw;
+           max-height: 675px;
+            max-width:90vw;
+            height: auto;
+            width: auto;
            box-shadow: 0 0 50px rgb(201, 52, 49, 0.6);
             border: 2px solid rgb(70, 18, 17, 0.6);
            
@@ -220,6 +271,13 @@ width: 100%;
 
             box-shadow: 0 0 50px rgb(201, 52, 49, 0.6);
             border: 2px solid rgb(201, 52, 49, 0.6);*/
+        }
+        /* Sub Main Images */
+        #mainSub a img{
+            max-height: 165px;
+            max-width:165px;
+            height: auto;
+            width: auto;
         }
 }
 
@@ -251,16 +309,25 @@ text-align: center;
 }
 #blackTextHover:hover{
     color:black;
-
+}
 
 }
 /* Jumbotron */
 .jumbotron img{
     margin-top: 10px;
-    height: 550px;
+    max-height: 550px;
     max-width:90vw;
+    height: auto;
+    width: auto;
     box-shadow: 0 0 50px rgb(201, 52, 49, 0.6);
     border: 2px solid rgba(70, 18, 17, 0.6);
+}
+ /* Sub Main Images */
+ #mainSub a img{
+    max-height: 135px;
+    max-width:135px;
+    height: auto;
+    width: auto;
 }
 }
 
@@ -297,11 +364,20 @@ text-align: center;
         /* Jumbotron */ 
         .jumbotron img{
             margin-top: 10px;
-            height: 432px;
+            max-height: 400px;
             max-width:90vw;
+            height: auto;
+            width: auto;
             box-shadow: 0 0 50px rgb(201, 52, 49, 0.6);
             border: 2px solid rgba(70, 18, 17, 0.6);
         
+        }
+         /* Sub Main Images */
+         #mainSub a img{
+            max-height: 100px;
+            max-width:100px;
+            height: auto;
+            width: auto;
         }
 }
 
@@ -337,10 +413,19 @@ text-align: center;
         /* Jumbotron */
         .jumbotron img{
             margin-top: 10px;
-            height: 400px;
+            max-height: 400px;
             max-width:90vw;
+            height: auto;
+            width: auto;
             box-shadow: 0 0 50px rgb(201, 52, 49, 0.6);
             border: 2px solid rgba(70, 18, 17, 0.6);
         
+        }
+         /* Sub Main Images */
+         #mainSub a img{
+            max-height: 100px;
+            max-width:100px;
+            height: auto;
+            width: auto;
         }
 }
